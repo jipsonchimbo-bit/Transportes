@@ -13,7 +13,7 @@ public class Moto extends Vehiculo {
 
     @Override
     public void transportar() {
-        System.out.println("La motocicleta transporta pequeños productos rapidamente en zonas urbanas.");
+        System.out.println("La moto transporta pequeños productos rapidamente en zonas urbanas.");
     }
 
     @Override
