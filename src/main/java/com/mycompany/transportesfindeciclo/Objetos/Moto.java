@@ -1,14 +1,14 @@
 package com.mycompany.transportesfindeciclo.Objetos;
 
 public class Moto extends Vehiculo {
-    private int cilindraje;
+    private int tipoMotor;
 
     public Moto() {
     }
 
-    public Moto(int id, String marca, String modelo, double capacidadCarga, int cilindraje) {
+    public Moto(int id, String marca, String modelo, double capacidadCarga, int tipoMotor) {
         super(id, marca, modelo, capacidadCarga);
-        this.cilindraje = cilindraje;
+        this.tipoMotor = tipoMotor;
     }
 
     @Override
@@ -19,9 +19,9 @@ public class Moto extends Vehiculo {
     @Override
     public void imprimirInformacion() {
         super.imprimirInformacion();
-        System.out.println("Capacidad del cilindro: " + cilindraje + " cc");
+        System.out.println("Capacidad del cilindro: " + tipoMotor + " cc");
     }
 
-    public int getCilindraje() { return cilindraje; }
-    public void setCilindraje(int cilindraje) { this.cilindraje = cilindraje; }
+    public int gettipoMotor() { return tipoMotor; }
+    public void settipoMotor(int tipoMotor) { this.tipoMotor = tipoMotor; }
 }
