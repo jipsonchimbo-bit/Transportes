@@ -15,6 +15,7 @@ public abstract class Vehiculo {
         this.modelo = modelo;
         this.capacidadCarga = capacidadCarga;
     }
+
     public double calcularDistancia(double velocidad) {
         return velocidad * 1.0;
     }

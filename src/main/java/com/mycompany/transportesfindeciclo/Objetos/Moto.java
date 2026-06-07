@@ -19,7 +19,7 @@ public class Moto extends Vehiculo {
     @Override
     public void imprimirInformacion() {
         super.imprimirInformacion();
-        System.out.println("Capacidad del cilindraje: " + cilindraje + " cc");
+        System.out.println("Capacidad del cilindro: " + cilindraje + " cc");
     }
 
     public int getCilindraje() { return cilindraje; }

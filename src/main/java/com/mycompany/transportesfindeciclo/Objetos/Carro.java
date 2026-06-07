@@ -19,7 +19,7 @@ public class Carro extends Vehiculo {
     @Override
     public void imprimirInformacion() {
         super.imprimirInformacion();
-        System.out.println("Tipo de Coche: " + tipoCarro);
+        System.out.println("Tipo de carro: " + tipoCarro);
     }
 
     public String getTipoCarro() { return tipoCarro; }

@@ -1,7 +1,7 @@
-package com.mycompany.transportesfindeciclo.DataSources; // <-- Paquete cambiado
+package com.mycompany.transportesfindeciclo.DataSources;
 
-import com.mycompany.transportesfindeciclo.Objetos.Vehiculo;
 import com.mycompany.transportesfindeciclo.InterfazDao.DaoVehiculos;
+import com.mycompany.transportesfindeciclo.Objetos.Vehiculo;
 
 public class Vehiculos implements DaoVehiculos {
     private Vehiculo[] listaVehiculos;
